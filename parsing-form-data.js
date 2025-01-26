@@ -17,5 +17,9 @@ app.get("/", function(req,res){
     res.send("<h1>Village is on its way home!</h1>")
 })
 
+app.get("/give", function(req,res){
+    res.send("<h1>Change what you are looking at and everything around it would change</h1>")
+})
+
 // Listen to the server
 app.listen(3000);
